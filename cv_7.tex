@@ -1,0 +1,183 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Daniele} % Your first name
+\familyname{Paliotta} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+% \address{123 Broadway}{City, State 12345}
+\mobile{(+39) 3426813923}
+% \phone{(000) 111 1112}
+% \fax{(000) 111 1113}
+\email{danielepaliotta96@gmail.com}
+% \homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+% \extrainfo{additional information}
+\photo[70pt][0pt]{} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-2] % Dummy text
+%\lipsum[4] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%\newpage
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2018--ongoing}{Masters of Engineering}{Polytechnic University of Turin}{Turin}{\textit{Average -- 29/30}}{Computer Engineering - Data Science Path}  % Arguments not required can be left empty
+\cventry{January--June 2017}{CyberChallenge alumn}{CINI CyberChallenge}{Rome}{}{I was among a selected group of students in the whole country admitted to CyberChallenge, an intensive training in cyber security.}
+\cventry{2015--2018}{Bachelor of Engineering}{Sapienza University of Rome}{Rome}{\textit{Summa cum laude}}{Computer Engineering}
+
+\section{Bachelor Thesis}
+
+\cvitem{Title}{\emph{Deep Learning for Generative Models}}
+\cvitem{Supervisor}{Professor Fiora Pirri}
+\cvitem{Description}{The thesis explored both the history and state-of-the-art of generative models using deep learning techniques, with a focus on Computer Vision applications.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\cventry{August 2019--Ongoing}{Machine Learning Intern}{\textsc{TrueLayer}}{London}{}{Developing predictive models to classify and extract meaning from banking transactions, such as purchase classification and income prediction. The task required a great deal of data analysis and preparation, as it was noisy and strongly biased in the beginning. Deployed models to production environment and evaluated and assessed performance.}
+%------------------------------------------------
+
+\cventry{2017--2018}{Software Developer}{\textsc{CINI - CyberChallenge}}{Rome}{}{Developed full-stack infrastructure for online testing of applicants. The product is still actively maintained and used by cyberchallenge.it}
+
+
+\cventry{Summer 2016}{Software Developer}{\textsc{Ipothesi SRL - Simon Kucher \& Partners}}{Rome}{}{Developed a full-stack survey platform for market analysis. THe product was actively used to gather and analyze data about airports parking lots}
+
+
+%------------------------------------------------
+
+\subsection{Miscellaneous}
+
+\cventry{2010--2016}{Lifeguard}{}{}{}{}
+
+\cventry{Summer 2014}{Barista}{EAT}{London}{}{During my high school years, I decided that London was a cool place to spend the summer. I had't realized that it would be all work and no play.}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\cvitem{}{Scolarships: Sapienza University, Fiumicino City Council, Blood Donor scolarship.}
+\cvitem{2017}{Winner of Google Technologies for Cloud and Web Development award.}
+
+
+%----------------------------------------------------------------------------------------
+%	RELEVANT SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Relevant kills}
+
+\cvitem{AI/ML}{\textsc{pytorch}, \textsc{tensorflow}, \textsc{sklearn}, \textsc{pandas}, \textsc{Spark}, data analysis and preprocessing, NLP, GANs, RL}
+\cvitem{SoftEng}{\textsc{python}, \textsc{java}, \textsc{c}, \textsc{scala}, test-driven development, functional programming, agile/scrum}
+\cvitem{Miscellaneous}{\textsc{docker}, \textsc{hadoop}, \textsc{git}, web security, reverse engineering}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Communication Skills}
+
+\cvitem{2019--Ongoing}{Lecturer and Organiser at Turin Machine Learning Study Group.}
+\cvitem{2018}{Generative Models talk at Italian Association for Machine Learning.}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Italian}{Mothertongue}{}
+\cvitemwithcomment{English}{C2 Level}{}
+\cvitemwithcomment{Spanish}{Intermediate}{Conversationally fluent}
+\cvitemwithcomment{Russian}{Basic}{Basic words and phrases only}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Climate Change}{Politics}
+\cvlistdoubleitem{Cooking}{Guitar}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
